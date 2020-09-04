@@ -6,10 +6,6 @@ a {
   text-decoration: none;
 }
 
-section:not(:last-child) {
-  margin-block-end: 1em;
-}
-
 #app {
   margin: 0 auto;
   max-width: 1440px;
@@ -17,6 +13,7 @@ section:not(:last-child) {
 }
 
 .content {
+  margin-block-end: 1em;
   padding-left: 40px;
 }
 
@@ -32,6 +29,18 @@ section:not(:last-child) {
 
 .content p span {
   font-weight: 600;
+}
+
+.name .content p a:first-child {
+  padding-right: 15px;
+}
+
+.name .content p a:nth-child(2) {
+  padding: 0 15px;
+}
+
+.name .content p a:last-child {
+  padding-left: 15px;
 }
 
 .title p {
