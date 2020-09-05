@@ -21,15 +21,12 @@ const assets = [
   './assets/icons/icon-76x76.png',
   './assets/icons/linkedin.svg',
   './assets/scripts/main.js',
-  './assets/styles/reset.min.css',
+  './assets/styles/reset.css',
+  './assets/styles/styles.css',
 ];
 
 self.addEventListener('install', evt => {
-  evt.waitUntil(
-    caches.open('app').then((cache) => {
-      cache.addAll(assets);
-    })
-  );
+  evt.waitUntil(caches.open('app').then(cache => cache.addAll(assets)));
 });
 
 self.addEventListener('activate', evt => {
