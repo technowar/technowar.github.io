@@ -1,6 +1,8 @@
 const assets = [
   './',
   './index.html',
+  './assets/cv.pdf',
+  './assets/icons/cv.svg',
   './assets/icons/email.svg',
   './assets/icons/favicon-16x16.png',
   './assets/icons/favicon-32x32.png',
