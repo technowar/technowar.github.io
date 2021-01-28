@@ -40,12 +40,17 @@ a {
   padding-right: 15px;
 }
 
+.project img,
 .name .content p a:not(:first-child):not(:last-child) {
   padding: 0 15px;
 }
 
 .name .content p a:last-child {
   padding-left: 15px;
+}
+
+.project {
+  display: flex;
 }
 
 .responsibilities p span {

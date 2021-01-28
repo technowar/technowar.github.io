@@ -55,9 +55,11 @@
 </head>
 <body class="dark">
     <div id="app">
-        <section class="name">
+        <section id="name" class="name">
             <div class="title">
-                <h2>NAME</h2>
+                <a href="#name">
+                    <h2>NAME</h2>
+                </a>
             </div>
             <div class="content">
                 <p>Johmel Rey Pintor</p>
@@ -78,25 +80,33 @@
                 </p>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="title">
-                <h2>ABOUT</h2>
+                <a href="#about">
+                    <h2>ABOUT</h2>
+                </a>
             </div>
             <div class="content">
                 <p>Results-driven software engineer with proficiency in architecting, designing, and implementing applications. Self-motivated and directed. Demonstrated ability to succeed in team-based environments.</p>
             </div>
         </section>
-        <section class="skills">
+        <section id="skills" class="skills">
             <div class="title">
-                <h2>SKILL SET</h2>
+                <a href="#skills">
+                    <h2>SKILL SET</h2>
+                </a>
             </div>
             <div class="content">
-                <p>AWS, Docker, GCP, Go, GraphQL, JavaScript, NoSQL, RDBMS, Vagrant</p>
+                <p>Go, JavaScript, Python</p>
+                <p>GraphQL, NoSQL, RDBMS</p>
+                <p>AWS, Docker, GCP, Vagrant</p>
             </div>
         </section>
-        <section class="experiences">
+        <section id="experience" class="experiences">
             <div class="title">
-                <h2>EXPERIENCE</h2>
+                <a href="#experience">
+                    <h2>EXPERIENCE</h2>
+                </a>
             </div>
             <div class="content">
                 <p>
@@ -138,40 +148,54 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <div class="title">
-                <h2>PROJECTS</h2>
+                <a href="#projects">
+                    <h2>PROJECTS</h2>
+                </a>
             </div>
             <div class="content">
                 <p>
                     <a href="https://goodcup.netlify.app/" rel="noopener noreferrer" target="_blank">Good Cup</a>
                 </p>
                 <div class="responsibilities">
-                    <p><span>React</span> application for <a href="https://thegoodcupcoffee.com/" rel="noopener noreferrer" target="_blank">Good Cup Coffee</a> that helps you create a perfect cup of cofee. Best viewed on mobile.</p>
+                    <p>A simple <span>React</span> application for <a href="https://thegoodcupcoffee.com/" rel="noopener noreferrer" target="_blank">Good Cup Coffee</a> that helps you create a perfect cup of coffee. Best viewed on mobile.</p>
                 </div>
             </div>
             <div class="content">
-                <p>
-                    <a href="https://gsg-online-ordering.herokuapp.com/" rel="noopener noreferrer" target="_blank">Golden State Greens</a> [18+]
+                <p class="project">
+                    <a href="https://gsg-online-ordering.herokuapp.com/" rel="noopener noreferrer" target="_blank">Golden State Greens</a>
+                    <img src="assets/icons/plus-18.svg" alt="plus-18" width="18">
                 </p>
                 <div class="responsibilities">
-                    <p><span>Next.js</span> SSR-enabled application for better SEO and is deployed on <span>Heroku</span> which consumes <span>Salesforce</span> API endpoints.</p>
+                    <p>Risky click, but it is completely SFW. This is an eCommerce website built using <span>Next.js</span> and consumes <span>Salesforce</span> API endpoints. The website is SSR-enabled for better SEO and is deployed in <a href="https://www.heroku.com/" rel="noopener noreferrer" target="_blank">Heroku</a>.</p>
                 </div>
             </div>
             <div class="content">
-                <p>
+                <p class="project">
+                    <a href="https://gallery.j4hmtor.now.sh/" rel="noopener noreferrer" target="_blank">Imgur Gallery</a>
+                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
+                </p>
+                <div class="responsibilities">
+                    <p><a href="https://github.com/technowar/imgur-gallery" rel="noopener noreferrer" target="_blank">Fork</a> the project to have your very own <a href="https://imgur.com/" rel="noopener noreferrer" target="_blank">Imgur</a> album gallery. This <span>React</span> application is small, compact, and can be deployed anywhere. As for my case, it is deployed in <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">Vercel</a>.</p>
+                </div>
+            </div>
+            <div class="content">
+                <p class="project">
                     <a href="https://github.com/technowar/crypto#crypto-cli-application" rel="noopener noreferrer" target="_blank">Crypto CLI Watch</a>
+                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
                 </p>
                 <div class="responsibilities">
-                    <p>CLI application written in <span>Go</span> that fetches latest cryptocurrency values.</p>
+                    <p>Another basic command line application. But this time, it is written in <span>Go</span>. You can use the application for checking cryptocurrency coin market share, price and many more.</p>
                 </div>
             </div>
             <div class="content">
-                <p>
+                <p class="project">
                     <a href="https://github.com/technowar/Imgur-CLI#imgur" rel="noopener noreferrer" target="_blank">Imgur-CLI</a>
+                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
                 </p>
                 <div class="responsibilities">
-                    <p>CLI application written in <span>Node.js</span> that upload images to <a href="https://imgur.com/" rel="noopener noreferrer" target="_blank">Imgur</a> in a breeze.</p>
+                    <p>A basic command line application built with <span>Node.js</span>. The application will upload images to <a href="https://imgur.com/" rel="noopener noreferrer" target="_blank">Imgur</a> either automatically or manually.</p>
                 </div>
             </div>
         </section>
