@@ -1,7 +1,1 @@
-(function() {
-  window.addEventListener('load', function () {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('../../sw.js');
-    }
-  });
-}());
+window.addEventListener("load",function(){"serviceWorker"in navigator&&navigator.serviceWorker.register("../../sw.js")});
