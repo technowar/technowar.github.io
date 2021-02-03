@@ -50,6 +50,7 @@ a {
 }
 
 .project {
+  align-items: center;
   display: flex;
 }
 
