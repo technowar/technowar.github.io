@@ -1,224 +1,507 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177613110-1"></script>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177613110-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-177613110-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-177613110-1");
     </script>
-    <link rel="stylesheet" href="assets/styles/reset.css">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-180x180.png" sizes="180x180">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-152x152.png" sizes="152x152">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-144x144.png" sizes="144x144">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-120x120.png" sizes="120x120">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-76x76.png" sizes="76x76">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-72x72.png" sizes="72x72">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-60x60.png" sizes="60x60">
-    <link rel="apple-touch-icon" type="image/png" href="assets/icons/icon-57x57.png" sizes="57x57">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/icons/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="assets/icons/icon-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="assets/icons/icon-256x256.png" sizes="256x256">
-    <link rel="icon" type="image/png" href="assets/icons/icon-384x384.png" sizes="384x384">
-    <link rel="icon" type="image/png" href="assets/icons/icon-512x512.png" sizes="512x512">
-    <link rel="manifest" href="assets/manifest.json">
-    <link rel="canonical" href="https://technowar.github.io/">
-    <meta charset="UTF-8">
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="robots" content="index, follow">
-    <meta name="application-name" content="Johmel Rey&apos;s Website">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Johmel Rey&apos;s Website">
-    <meta name="description" content="Software engineer based in Tallahassee, FL">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="msapplication-TileImage" content="https://technowar.github.io/">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="Software engineer based in Tallahassee, FL">
-    <meta name="twitter:title" content="Johmel Rey&apos;s Website">
-    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover">
-    <meta property="og:description" content="Software engineer based in Tallahassee, FL">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Johmel Rey&apos;s Website">
-    <meta property="og:title" content="Home | Johmel Rey">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://technowar.github.io/">
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-180x180.png"
+      sizes="180x180"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-152x152.png"
+      sizes="152x152"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-144x144.png"
+      sizes="144x144"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-120x120.png"
+      sizes="120x120"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-76x76.png"
+      sizes="76x76"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-72x72.png"
+      sizes="72x72"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-60x60.png"
+      sizes="60x60"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="assets/icons/icon-57x57.png"
+      sizes="57x57"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icon-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icon-256x256.png"
+      sizes="256x256"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icon-384x384.png"
+      sizes="384x384"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icon-512x512.png"
+      sizes="512x512"
+    />
+    <link rel="manifest" href="assets/manifest.json" />
+    <link rel="canonical" href="https://technowar.github.io/" />
+    <meta charset="UTF-8" />
+    <meta
+      name="bingbot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="Johmel Rey's Website" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Johmel Rey's Website" />
+    <meta
+      name="description"
+      content="Software engineer based in Tallahassee, FL"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://technowar.github.io/"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Software engineer based in Tallahassee, FL"
+    />
+    <meta name="twitter:title" content="Johmel Rey's Website" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <meta
+      property="og:description"
+      content="Software engineer based in Tallahassee, FL"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Johmel Rey's Website" />
+    <meta property="og:title" content="Home | Johmel Rey" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://technowar.github.io/" />
     <title>Home | Johmel Rey</title>
-</head>
-<body class="dark">
+  </head>
+  <body class="dark">
     <div id="app">
-        <section id="name" class="name">
-            <div class="title">
-                <a href="#name">
-                    <h2>NAME</h2>
-                </a>
-            </div>
-            <div class="content">
-                <p>Johmel Rey Pintor</p>
-                <p>Tallahassee, FL</p>
-                <p>+1 412 467 6669</p>
-                <p>
-                    <a href="mailto:jahmgwapo@yahoo.com?subject=Hello">
-                        <img src="assets/icons/email.svg" alt="email" width="18">
-                    </a>
-                    <a href="https://github.com/technowar" rel="noopener noreferrer" target="_blank">
-                        <img src="assets/icons/github.svg" alt="github" width="18">
-                    </a>
-                    <a href="https://www.linkedin.com/in/j4hmtor/" rel="noopener noreferrer" target="_blank">
-                        <img src="assets/icons/linkedin.svg" alt="linkedin" width="18">
-                    </a>
-                    <a href="assets/cv.pdf" rel="noopener noreferrer" target="_blank">
-                        <img src="assets/icons/cv.svg" alt="cv" width="18">
-                    </a>
-                </p>
-            </div>
-        </section>
-        <section id="about" class="about">
-            <div class="title">
-                <a href="#about">
-                    <h2>ABOUT</h2>
-                </a>
-            </div>
-            <div class="content">
-                <p>A Fullstack Software Engineer based in Tallahassee, FL with over 9 years of experience, focusing on, but not limited to, Elixir, Go, Node.js, React, React Native, and Vue. Results-driven with proficiency in architecting, designing, and implementing applications. Self-motivated, directed and demonstrated ability to succeed in team-based environments.</p>
-            </div>
-        </section>
-        <section id="skills" class="skills">
-            <div class="title">
-                <a href="#skills">
-                    <h2>SKILL SET</h2>
-                </a>
-            </div>
-            <div class="content">
-                <p>Elixir, Go, JavaScript</p>
-                <p>NoSQL, RDBMS</p>
-                <p>AWS, GCP, Docker</p>
-            </div>
-        </section>
-        <section id="experience" class="experiences">
-            <div class="title">
-                <a href="#experience">
-                    <h2>EXPERIENCE</h2>
-                </a>
-            </div>
-            <div class="content">
-                <p>
-                    <span>Software Engineer</span>
-                </p>
-                <p>STR8LINE, 02/21 - Present</p>
-                <div class="responsibilities">
-                    <p>Uses <span>React</span> in creating the company's web platform.</p>
-                    <p>Designs RESTful backend services with <span>Elixir</span> and <span>PostgreSQL</span> as the database. Creates microservices using, but not limited to <span>Go</span> and <span>Node.js</span>. <span>AWS</span> and <span>Heroku</span> are used for deployment.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p>
-                    <span>Software Engineer</span>
-                </p>
-                <p>VISEO Asia Pte. Ltd., 09/18 - 05/22</p>
-                <div class="responsibilities">
-                    <p>Uses <span>React</span>, <span>React Native</span>, and <span>Vue.js</span> in creating multiple web applications for different clients.</p>
-                    <p>Designs RESTful backend services with <span>Node.js</span> and connects to any of these databases: <span>MongoDB</span>, <span>PostgreSQL</span>, and <span>MySQL</span>. <span>AWS</span> and <span>GCP</span> are also used for cloud services.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p>
-                    <span>Software Engineer</span>
-                </p>
-                <p>A-FIS Pte. Ltd., 10/17 - 09/18</p>
-                <div class="responsibilities">
-                    <p>Uses <span>jQuery</span>, <span>React</span>, and <span>Vue.js</span> in creating multiple web applications that display Instagram analytics, widget view, and digital wallet.</p>
-                    <p>Designs RESTful backend services with <span>Go</span> and <span>MySQL</span>. <span>AWS</span> is also used for cloud services; <span>Solidity</span> and <span>Hyperledger</span> for the creation of the blockchain.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p>
-                    <span>Software Engineer</span>
-                </p>
-                <p>Accenture, Inc., 12/16 - 10/17</p>
-                <div class="responsibilities">
-                    <p>Focuses on <span>SFCC</span> and <span>jQuery</span> to build the client's next eCommerce website.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p>
-                    <span>Software Engineer</span>
-                </p>
-                <p>Global Zeal, Inc., 10/13 - 12/16</p>
-                <div class="responsibilities">
-                    <p>Uses the original <span>AngularJS</span> in creating the next educational and learning platform for School Improvement Network.</p>
-                    <p>Designs RESTful backend services with <span>Node.js</span> alongside <span>PostgreSQL</span> and <span>MongoDB</span>.</p>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="projects">
-            <div class="title">
-                <a href="#projects">
-                    <h2>PROJECTS</h2>
-                </a>
-            </div>
-            <div class="content">
-                <p>
-                    <a href="https://vangrowl.com/" rel="noopener noreferrer" target="_blank">Van Growl</a>
-                </p>
-                <div class="responsibilities">
-                    <p>An SSR-enabled eCommerce website built using <span>Next.js</span>, and <a href="https://cloud.google.com/" rel="noopener noreferrer" target="_blank">GCP</a>.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p>
-                    <a href="https://goodcup.netlify.app/" rel="noopener noreferrer" target="_blank">Good Cup</a>
-                </p>
-                <div class="responsibilities">
-                    <p>A simple <span>React</span> companion application for <a href="https://thegoodcupcoffee.com/" rel="noopener noreferrer" target="_blank">Good Cup Coffee</a> that helps you create a perfect cup of coffee. Best viewed on mobile.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p class="project">
-                    <a href="https://goldenstategreens.com/" rel="noopener noreferrer" target="_blank">Golden State Greens</a>
-                    <img src="assets/icons/plus-18.svg" alt="plus-18" width="18">
-                </p>
-                <div class="responsibilities">
-                    <p>Risky click, but it is completely SFW. This is an eCommerce website built using <span>Next.js</span> and consumes <span>Salesforce</span> API endpoints. The website is SSR-enabled for better SEO and is deployed in <a href="https://www.heroku.com/" rel="noopener noreferrer" target="_blank">Heroku</a>.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p class="project">
-                    <a href="https://gallery.j4hmtor.now.sh/" rel="noopener noreferrer" target="_blank">Imgur Gallery</a>
-                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
-                </p>
-                <div class="responsibilities">
-                    <p><a href="https://github.com/technowar/imgur-gallery" rel="noopener noreferrer" target="_blank">Fork</a> the project to have your very own <a href="https://imgur.com/" rel="noopener noreferrer" target="_blank">Imgur</a> album gallery. This <span>React</span> application is small, compact, and can be deployed anywhere. As for my case, it is deployed in <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">Vercel</a>.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p class="project">
-                    <a href="https://github.com/technowar/crypto#crypto-cli-application" rel="noopener noreferrer" target="_blank">Crypto CLI Watch</a>
-                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
-                </p>
-                <div class="responsibilities">
-                    <p>Another basic command line application. But this time, it is written in <span>Go</span>. You can use the application for checking cryptocurrency coin market share, price and many more.</p>
-                </div>
-            </div>
-            <div class="content">
-                <p class="project">
-                    <a href="https://github.com/technowar/Imgur-CLI#imgur" rel="noopener noreferrer" target="_blank">Imgur-CLI</a>
-                    <img src="assets/icons/open-source.svg" alt="open-source" width="18">
-                </p>
-                <div class="responsibilities">
-                    <p>A basic command line application built with <span>Node.js</span>. The application will upload images to <a href="https://imgur.com/" rel="noopener noreferrer" target="_blank">Imgur</a> either automatically or manually.</p>
-                </div>
-            </div>
-        </section>
+      <section id="name" class="name">
+        <div class="title">
+          <a href="#name">
+            <h2>NAME</h2>
+          </a>
+        </div>
+        <div class="content">
+          <p>Johmel Rey Pintor</p>
+          <p>+1 412 467 6669</p>
+          <p>
+            <a href="mailto:jahmgwapo@yahoo.com?subject=Hello">
+              <img src="assets/icons/email.svg" alt="email" width="18" />
+            </a>
+            <a
+              href="https://github.com/technowar"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src="assets/icons/github.svg" alt="github" width="18" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/j4hmtor/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src="assets/icons/linkedin.svg" alt="linkedin" width="18" />
+            </a>
+            <a href="assets/cv.pdf" rel="noopener noreferrer" target="_blank">
+              <img src="assets/icons/cv.svg" alt="cv" width="18" />
+            </a>
+          </p>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="title">
+          <a href="#about">
+            <h2>ABOUT</h2>
+          </a>
+        </div>
+        <div class="content">
+          <p>
+            Fullstack Software Engineer with over 10 years of experience,
+            focusing on, but not limited to, <span>Elixir</span>,
+            <span>Go</span>, <span>Node.js</span>, <span>React</span>,
+            <span>React Native</span>, and <span>Vue</span>. Results-driven with
+            proficiency in designing, and implementing applications.
+            Self-motivated, directed, and demonstrated ability to succeed in
+            team-based environments. Outside of work, I maintain a homelab to
+            explore new tools and test out new technologies, and shoot street
+            and architectural photography on film.
+          </p>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <div class="title">
+          <a href="#skills">
+            <h2>SKILL SET</h2>
+          </a>
+        </div>
+        <div class="content">
+          <p>Agentic AI, AWS, GCP, Docker, Kubernetes</p>
+          <p>Elixir, Go, JavaScript</p>
+          <p>NoSQL, RDBMS</p>
+        </div>
+      </section>
+      <section id="experience" class="experiences">
+        <div class="title">
+          <a href="#experience">
+            <h2>EXPERIENCE</h2>
+          </a>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>The Travelers Companies, Inc., 09/22 - Present</p>
+          <div class="responsibilities">
+            <p>
+              Uses <span>Angular</span>, <span>React</span>, and
+              <span>React Native</span> to create and maintain multiple
+              applications.
+            </p>
+            <p>
+              Designs RESTful backend services with <span>Node.js</span> while
+              maintaining legacy <span>.NET</span> services. <span>AWS</span> is
+              heavily utilized for cloud services, and
+              <span>Claude Code</span> for agentic AI.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>STR8LINE, 02/21 - 09/22</p>
+          <div class="responsibilities">
+            <p>
+              Uses <span>React</span> in creating the company's web platform.
+            </p>
+            <p>
+              Designs RESTful backend services with <span>Elixir</span> and
+              <span>PostgreSQL</span> as the database. Creates microservices
+              using, but not limited to <span>Go</span> and
+              <span>Node.js</span>. <span>AWS</span> and <span>Heroku</span> are
+              used for deployment.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>VISEO Asia Pte. Ltd., 09/18 - 05/22</p>
+          <div class="responsibilities">
+            <p>
+              Uses <span>React</span>, <span>React Native</span>, and
+              <span>Vue.js</span> in creating multiple web applications for
+              different clients.
+            </p>
+            <p>
+              Designs RESTful backend services with <span>Node.js</span> and
+              connects to any of these databases: <span>MongoDB</span>,
+              <span>PostgreSQL</span>, and <span>MySQL</span>.
+              <span>AWS</span> and <span>GCP</span> are also used for cloud
+              services.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>A-FIS Pte. Ltd., 10/17 - 09/18</p>
+          <div class="responsibilities">
+            <p>
+              Uses <span>jQuery</span>, <span>React</span>, and
+              <span>Vue.js</span> in creating multiple web applications that
+              display Instagram analytics, widget view, and digital wallet.
+            </p>
+            <p>
+              Designs RESTful backend services with <span>Go</span> and
+              <span>MySQL</span>. <span>AWS</span> is also used for cloud
+              services; <span>Solidity</span> and <span>Hyperledger</span> for
+              the creation of the blockchain.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>Accenture, Inc., 12/16 - 10/17</p>
+          <div class="responsibilities">
+            <p>
+              Focuses on <span>SFCC</span> and <span>jQuery</span> to build the
+              client's next eCommerce website.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <span>Software Engineer</span>
+          </p>
+          <p>Global Zeal, Inc., 10/13 - 12/16</p>
+          <div class="responsibilities">
+            <p>
+              Uses the original <span>AngularJS</span> in creating the next
+              educational and learning platform for School Improvement Network.
+            </p>
+            <p>
+              Designs RESTful backend services with
+              <span>Node.js</span> alongside <span>PostgreSQL</span> and
+              <span>MongoDB</span>.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="title">
+          <a href="#projects">
+            <h2>PROJECTS</h2>
+          </a>
+        </div>
+        <div class="content">
+          <p>
+            <a
+              href="https://vangrowl.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Van Growl</a
+            >
+          </p>
+          <div class="responsibilities">
+            <p>
+              An SSR-enabled eCommerce website built using <span>Next.js</span>,
+              and
+              <a
+                href="https://cloud.google.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >GCP</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>
+            <a
+              href="https://goodcup.netlify.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Good Cup</a
+            >
+          </p>
+          <div class="responsibilities">
+            <p>
+              A simple <span>React</span> companion application for
+              <a
+                href="https://thegoodcupcoffee.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Good Cup Coffee</a
+              >
+              that helps you create a perfect cup of coffee. Best viewed on
+              mobile.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p class="project">
+            <a
+              href="https://goldenstategreens.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Golden State Greens</a
+            >
+            <img src="assets/icons/plus-18.svg" alt="plus-18" width="18" />
+          </p>
+          <div class="responsibilities">
+            <p>
+              Risky click, but it is completely SFW. This is an eCommerce
+              website built using <span>Next.js</span> and consumes
+              <span>Salesforce</span> API endpoints. The website is SSR-enabled
+              for better SEO and is deployed in
+              <a
+                href="https://www.heroku.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Heroku</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p class="project">
+            <a
+              href="https://gallery.j4hmtor.now.sh/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Imgur Gallery</a
+            >
+            <img
+              src="assets/icons/open-source.svg"
+              alt="open-source"
+              width="18"
+            />
+          </p>
+          <div class="responsibilities">
+            <p>
+              <a
+                href="https://github.com/technowar/imgur-gallery"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Fork</a
+              >
+              the project to have your very own
+              <a
+                href="https://imgur.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Imgur</a
+              >
+              album gallery. This <span>React</span> application is small,
+              compact, and can be deployed anywhere. As for my case, it is
+              deployed in
+              <a
+                href="https://vercel.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Vercel</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p class="project">
+            <a
+              href="https://github.com/technowar/crypto#crypto-cli-application"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Crypto CLI Watch</a
+            >
+            <img
+              src="assets/icons/open-source.svg"
+              alt="open-source"
+              width="18"
+            />
+          </p>
+          <div class="responsibilities">
+            <p>
+              Another basic command line application. But this time, it is
+              written in <span>Go</span>. You can use the application for
+              checking cryptocurrency coin market share, price and many more.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <p class="project">
+            <a
+              href="https://github.com/technowar/Imgur-CLI#imgur"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Imgur-CLI</a
+            >
+            <img
+              src="assets/icons/open-source.svg"
+              alt="open-source"
+              width="18"
+            />
+          </p>
+          <div class="responsibilities">
+            <p>
+              A basic command line application built with <span>Node.js</span>.
+              The application will upload images to
+              <a
+                href="https://imgur.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Imgur</a
+              >
+              either automatically or manually.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="assets/scripts/main.js"></script>
-</body>
+  </body>
 </html>
